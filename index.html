@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>Site Beneficiario</title>
+</head>
+
+<body>
+    <section>
+        <header>
+            <nav class="nav-bar">
+                <div class="logo">
+                    <h1>VHFITNESS</h1>
+                </div>
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><i class="fa-solid fa-house" style="color: #ffffff;"></i> <a
+                                href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><i class="fa-solid fa-user-doctor" style="color: #ffffff;"></i> <a
+                                href="nutri.html" class="nav-link">Nutricionista</a></li>
+                        <li class="nav-item"><i class="fa-solid fa-dumbbell" style="color: #ffffff;"></i> <a
+                                href="personal.html" class="nav-link">Personal-Trainer</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="./img/menu_white_36dp.svg" alt=""></button>
+                </div>
+            </nav>
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"> <i class="fa-solid fa-house" style="color: #ffffff;"></i> <a href="index.html"
+                            class="nav-link">Home</a></li>
+                    <li class="nav-item"><i class="fa-solid fa-user-doctor" style="color: #ffffff;"></i> <a
+                            href="nutri.html" class="nav-link">Nutricionista</a></li>
+                    <li class="nav-item"><i class="fa-solid fa-dumbbell" style="color: #ffffff;"></i> <a
+                            href="personal.html" class="nav-link">Personal-Trainer</a></li>
+                </ul>
+            </div>
+        </header>
+    </section>
+
+    <section>
+        <div class="header-content">
+            <h1>Consultoria Personalizada de performance e saúde!</h1>
+            <p>Oferecemos planos completos de nutrição e treino personalizado — ou, se
+                preferir, você pode escolher apenas um.</p>
+            <p> <br> Seu objetivo, do seu jeito!</p>
+        </div>
+    </section>
+
+    <div id="container">
+        <div class="sobre-titulo">
+            <h1>Profissionais</h1>
+        </div>
+    </div>
+    <section id="Sobre">
+        <div class="container">
+
+            <div class="profissionais">
+                <div class="card">
+                    <img class="imagens" src="./img/imagem-nutri-200px.jpg">
+
+                    <h3 class="nome">Nutricionista em formação - Viviane Rocha</h3>
+                    <ul class="informacoes-inicial">
+                        <li>Graduanda em Nutrição.</li>
+                        <li>Foco em nutrição esportiva e emagrecimento.</li>
+                        <li>Mostra que o alimento é vida e que, através dele, podemos cuidar da saúde de dentro para
+                            fora.</li>
+                        <li>Não realiza atendimentos individuais, mas oferece orientação, apoio e conteúdos educativos
+                            baseados na ciência da nutrição.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="profissionais">
+                <div class="card">
+                    <img class="imagens" src="./img/foto-personal.jpg">
+
+                    <h3 class="nome">
+                        <h3class>Personal Trainer - Henrique Rocha
+                    </h3>
+
+                    <ul class="informacoes-inicial">
+                        <li>Bacharel em Educação Física.</li>
+                        <li>Apaixonado pela musculação e saúde física.</li>
+                        <li>Transforma vidas através do conhecimento e da prática!</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="citacao">
+        <div class="container">
+            <h1> “Nossos corpos são nossos jardins, nossas vontades são nossos jardineiros.” William Shakespeare</h1>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="container">
+            <ul class="footer-links">
+                <li><i class="fa-solid fa-house" style="color: #ffffff;"></i> <a href="index.html">Home</a></li>
+                <li><i class="fa-solid fa-user-doctor" style="color: #ffffff;"></i> <a
+                        href="nutri.html">Nutricionista</a></li>
+                <li><i class="fa-solid fa-dumbbell" style="color: #ffffff;"></i> <a
+                        href="personal.html">Personal-Trainer</a></li>
+            </ul>
+            <p>© 2025 VHFITNESS. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <div class="cookies-msg" id="cookiesMsg">
+        <div class="cookies-txt">
+            <h2>Este site usa cookies</h2>
+            <p>Utilizamos cookies para melhorar sua experiência. Ao continuar navegando, você concorda com nossa política de cookies.</p>
+        </div>
+        <div class="cookies-btn">
+            <button onclick="aceitarCookies()">Aceitar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
